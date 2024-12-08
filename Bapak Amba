@@ -36,10 +36,10 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to bapak amba's website</h1>
-  <a href="#" id="show-image">Click here to reveal a picture</a>
+  <h1>Haiiiii!1! :3</h1>
+  <a href="#" id="show-image">Tebak gambar</a>
   <div id="image-container" style="display: none;">
-    <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Osaka_azumanga.png" alt="Ayumu Kasuga (Osaka)">
+    <img src="https://images.app.goo.gl/NPJ9qTKD9TudRT1bA" alt="Ts me if u even care :3">
   </div>
   <script>
     document.getElementById('show-image').addEventListener('click', function(event) {
