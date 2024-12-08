@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bapak Amba Interactive Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #333;
+      margin-top: 20%;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #007bff;
+      font-size: 18px;
+    }
+    a:hover {
+      color: #0056b3;
+    }
+    #image-container {
+      margin-top: 20px;
+    }
+    img {
+      max-width: 300px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to bapak amba's website</h1>
+  <a href="#" id="show-image">Click here to reveal a picture</a>
+  <div id="image-container" style="display: none;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Osaka_azumanga.png" alt="Ayumu Kasuga (Osaka)">
+  </div>
+  <script>
+    document.getElementById('show-image').addEventListener('click', function(event) {
+      event.preventDefault();
+      document.getElementById('image-container').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
